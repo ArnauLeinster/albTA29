@@ -1,0 +1,19 @@
+table{
+    background-color: #0a9dce;
+}
+th {
+    background-color: #013030;
+    color: #c9fcca;
+}
+td {
+    background-color: #ccffcc;
+}
+.dark {
+    background-color: #91c291;
+}
+.col {
+    text-align: center;
+}
+#width {
+    padding: 0 50px;
+}

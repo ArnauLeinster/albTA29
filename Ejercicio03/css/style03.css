@@ -1,0 +1,30 @@
+#title {
+    text-align: center;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-style: double;
+    box-shadow: 1px 1px rgb(0, 0, 0);
+}
+th {
+    border-collapse: collapse;
+    border-style: double;
+    font-size: large;
+    text-align: center;
+}
+#th1 {
+    background-color: rgb(110, 224, 110);
+}
+#th2 {
+    background-color: rgb(40, 207, 212);
+    text-align: left;
+}
+#th3 {
+    background-color: rgb(253, 155, 232);
+    text-align: right;
+    vertical-align: bottom;
+}
+.cellsText{
+    color: red;
+}

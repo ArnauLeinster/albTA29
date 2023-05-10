@@ -1,0 +1,77 @@
+body {
+    background-image: url(/images/ac.jpg);
+    font-weight: bold;
+  }
+  .A {
+    background-image: url(/images/back_mantel.jpg);
+  }
+  .B {
+    background-image: url(/images/back_mantel.jpg);
+    background-clip: content-box;
+  }
+  .C {
+    background-image: url(/images/back_mantel.jpg);
+    background-size: 100% 100%;
+  }
+  .D {
+    background-image: url(/images/back_mantel.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-origin: content-box;
+    background-color: white;
+  }
+  .E {
+    background-image: url(/images/dh.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .F {
+    background-image: url(/images/dh.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: content-box;
+    background-color: white;
+  }
+  .G {
+    background-image: url(/images/dh_2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: white;
+  }
+  .H {
+    background-image: url(/images/dh_3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: white;
+  }
+  .I {
+      background: linear-gradient(to right, #d8ff6c 0%, #5f7a46 100%); 
+  } 
+  .J {
+      background: linear-gradient(to bottom, rgb(255, 184, 156) 0%,rgb(145, 41, 0) 80%,rgb(73, 21, 0) 51%,rgb(134, 78, 55) 100%);
+  }
+  .K {
+      background: linear-gradient(to top, rgb(40, 94, 36) 0%, rgb(211, 203, 180) 100%); 
+  } 
+  .L {
+      background: linear-gradient(to top, rgba(40, 94, 36) 0%, rgba(0, 0, 0, 0) 100%);
+  }
+  span
+  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 90%;
+  }
+  div
+  {
+    text-align: center;
+    padding: 20px;
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    border: solid #000000 1px;
+  }

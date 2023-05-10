@@ -1,0 +1,20 @@
+body {
+    margin: 25px;
+}
+div {
+    padding: 0 100px 100px 0;
+    border: solid blue 3px;
+    width: auto;
+    width: 100px;
+    background-color: rgb(119, 255, 255) !important;
+    background: 
+        url(/images/f01.png) left bottom repeat-x,
+        url(/images/f02.png) left bottom no-repeat,
+        url(/images/f03.png) left top repeat-x;
+}
+#marioDiv {
+    padding: 0 250px 250px 0;
+    margin: 25px;
+    border: solid red 3px;
+    width: 250px;
+}
